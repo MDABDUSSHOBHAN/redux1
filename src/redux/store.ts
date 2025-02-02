@@ -8,3 +8,5 @@ export const store = configureStore({
 
 
 // counter & store ar modhe angta lege galo ar madhome ______>>>
+export type RootState = ReturnType<typeof store.getState>;
+export type AppDispatch = typeof store.dispatch;
